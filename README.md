@@ -1,4 +1,4 @@
-const-min-int32
+Min Int32
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
@@ -17,18 +17,25 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var foo = require( 'compute-const-min-int32' );
+var MIN_INT32 = require( 'compute-const-min-int32' );
 ```
 
-#### foo( arr )
+#### MIN_INT32
 
-What does this function do?
+Minimum signed 32-bit integer.
+
+``` javascript
+MIN_INT32 === -1 * Math.pow( 2, 31 );
+```
 
 
 ## Examples
 
 ``` javascript
-var foo = require( 'compute-const-min-int32' );
+var MIN_INT32 = require( 'compute-const-min-int32' );
+
+console.log( MIN_INT32 );
+// returns -2147483648
 ```
 
 To run the example code from the top-level application directory,
