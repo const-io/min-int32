@@ -8,14 +8,14 @@ Min Int32
 ## Installation
 
 ``` bash
-$ npm install compute-const-min-int32
+$ npm install const-min-int32
 ```
 
 
 ## Usage
 
 ``` javascript
-var MIN_INT32 = require( 'compute-const-min-int32' );
+var MIN_INT32 = require( 'const-min-int32' );
 ```
 
 #### MIN_INT32
@@ -30,7 +30,7 @@ MIN_INT32 === (-1 * Math.pow(2,31));
 ## Examples
 
 ``` javascript
-var MIN_INT32 = require( 'compute-const-min-int32' );
+var MIN_INT32 = require( 'const-min-int32' );
 
 console.log( MIN_INT32 );
 // returns -2147483648
@@ -100,8 +100,8 @@ $ make view-browser-tests
 Copyright &copy; 2015-2016. The [Compute.io][compute-io] Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/compute-const-min-int32.svg
-[npm-url]: https://npmjs.org/package/compute-const-min-int32
+[npm-image]: http://img.shields.io/npm/v/const-min-int32.svg
+[npm-url]: https://npmjs.org/package/const-min-int32
 
 [build-image]: http://img.shields.io/travis/const-io/min-int32/master.svg
 [build-url]: https://travis-ci.org/const-io/min-int32
